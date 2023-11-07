@@ -1,0 +1,22 @@
+name: Check Non-Empty Line Count on Commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-line-count:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Check Non-Empty Line Count
+        run: |
+          non_empty_line_count=$(grep -v '^\s*$' src/poem.txt | wc -l)
+          if [ $non_empty_line_count -le 20 ]; then
+            echo "Non-empty line count in src/poem.txt must be greater than 20."
+            exit 1
+          fi
