@@ -1,7 +1,7 @@
-A Psalm of Life
-By Henry Wadsworth Longfellow
+Title: A Psalm of Life
+Author: Henry Wadsworth Longfellow
 
-"What The Heart of The Young Man Said To The Psalmist"
+What The Heart of The Young Man Said To The Psalmist
 
 Tell me not, in mournful numbers,
 Life is but an empty dream!
@@ -48,4 +48,7 @@ With a heart for any fate;
 Still achieving, still pursuing,
 Learn to labor and to wait.
 
-Source: https://www.poetryfoundation.org/poems/44644/a-psalm-of-life
+
+
+Source:
+https://www.poetryfoundation.org/poems/44644/a-psalm-of-life
